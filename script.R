@@ -1,9 +1,9 @@
 # MyersMisc R package
 
 # initialize package
-install.packages("devtools")
+#install.packages("devtools")
 library("devtools")
-devtools::install_github("klutometis/roxygen")
+#devtools::install_github("klutometis/roxygen")
 library(roxygen2)
 
 create_package("MyersMisc")
