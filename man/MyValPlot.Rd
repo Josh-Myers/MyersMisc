@@ -12,3 +12,8 @@ MyValPlot(x, xlab, ylab, xlim, ylim, legend = TRUE, subtitles = TRUE,
 MyValPlot function
 My hack val.prob for my plot - set line type and legend etc
 }
+\examples{
+MyValPlot()
+}
+\keyword{Validation}
+\keyword{plot}

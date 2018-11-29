@@ -2,6 +2,11 @@
 
 #' MyCalPlot function
 #' my hack of validate.plot.default in rms for my 2 panel plots to match with val.prob
+#' @keywords Calibration curves
+#' @export
+#' @examples
+#' MyCalPlot()
+
 MyCalPlot <-
   function (p, y, logit, group, weights = rep(1, length(y)), normwt = FALSE,
             pl = TRUE, smooth = TRUE, logistic.cal = TRUE, xlab = "Predicted Probability",
@@ -193,6 +198,11 @@ MyCalPlot <-
   }
 #' MyValPlot function
 #' My hack val.prob for my plot - set line type and legend etc
+#' @keywords Validation plot
+#' @export
+#' @examples
+#' MyValPlot()
+
 MyValPlot <-
   function (x, xlab, ylab, xlim, ylim, legend = TRUE, subtitles = TRUE,
             scat1d.opts = NULL, ...)
@@ -268,6 +278,10 @@ MyValPlot <-
 #' library(githubinstall)
 #' githubinstall("CalibrationCurves")
 #' library(CalibrationCurves)
+#' @keywords Calibration curves
+#' @export
+#' @examples
+#' My.val.prob.ci.2()
 
 My.val.prob.ci.2 <-
   function (p, y, logit, group, weights = rep(1, length(y)), normwt = F,
@@ -719,6 +733,11 @@ My.val.prob.ci.2 <-
 
 #' My plot.xmean.ordinaly from rms
 #' removed the xlab and ylab defaults from plot.xmean.ordinaly - so I could set my own
+#' @keywords Ordinal plots
+#' @export
+#' @examples
+#' My.plot.xmean.ordinaly()
+
 My.plot.xmean.ordinaly =
   function (x, data, subset, na.action, subn = TRUE, cr = FALSE, 
             topcats = 1, cex.points = 0.75, ...) 

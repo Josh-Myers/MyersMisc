@@ -14,3 +14,4 @@ library(MyersMisc)
 ?MyCalPlot
 ?my.val.prob.ci.2
 ?MyValPlot
+?My.plot.xmean.ordinaly

@@ -12,3 +12,8 @@ My.plot.xmean.ordinaly(x, data, subset, na.action, subn = TRUE,
 My plot.xmean.ordinaly from rms
 removed the xlab and ylab defaults from plot.xmean.ordinaly - so I could set my own
 }
+\examples{
+My.plot.xmean.ordinaly()
+}
+\keyword{Ordinal}
+\keyword{plots}

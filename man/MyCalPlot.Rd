@@ -18,3 +18,8 @@ MyCalPlot(p, y, logit, group, weights = rep(1, length(y)),
 MyCalPlot function
 my hack of validate.plot.default in rms for my 2 panel plots to match with val.prob
 }
+\examples{
+MyCalPlot()
+}
+\keyword{Calibration}
+\keyword{curves}

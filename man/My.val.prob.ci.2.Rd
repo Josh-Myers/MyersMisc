@@ -40,3 +40,8 @@ library(githubinstall)
 githubinstall("CalibrationCurves")
 library(CalibrationCurves)
 }
+\examples{
+My.val.prob.ci.2()
+}
+\keyword{Calibration}
+\keyword{curves}
